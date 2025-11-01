@@ -22,3 +22,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello world"
+
+    - name: Checkout
+      uses: actions/checkout@v5.0.0
+
